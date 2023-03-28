@@ -1,0 +1,12 @@
+{
+  "c1Key": "Decimal Point Multiplier",
+  "superpositionCond": "Under Schrödinger Superposition Effect",
+  "cycloneActiveCond": "Celestial Cyclone active",
+  "multCond": "In Multiplication Mode",
+  "subCond": "In Subtraction Mode",
+  "lessThan3Cond": "Enemy afflicted by Less Than Three",
+  "c1Cond": "Decimal Point Hit Mode",
+  "average": "Average",
+  "always": "Always",
+  "c2Cond": "Schrödinger Superposition Effect Prime Trigger"
+}

@@ -1,0 +1,162 @@
+{
+  "name": "Nekara",
+  "title": "Creation of Simulated Cognition",
+  "description": "A combination of many things. She exists in many states and phases. Is she even real?",
+  "constellationName": "Mathematica Felina",
+  "auto": {
+    "name": "Astral Abacus",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Normal Attack</strong>",
+        "1": "Performs up to 4 consecutive shots launching beads dealing <electro>Electro DMG</electro> from her Astral Abacus."
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>",
+        "1": "Consumes a certain amount of Stamina to charge and unleash a continuous stream of Electro beads, dealing <electro>Electro DMG</electro> every 0.2s that chains to up to 4 enemies.",
+        "2": "Nekara is free to move while using her charged attack, and has increased resistance to interruption."
+      },
+      "plunging": {
+        "0": "<strong>Plunging Attack</strong>",
+        "1": "Fires Electro beads at the ground, dealing <electro>AoE Electro DMG</electro> upon impact."
+      }
+    },
+    "skillParams": {
+      "0": "1-Hit DMG",
+      "1": "2-Hit DMG",
+      "2": "3-Hit DMG",
+      "3": "4-Hit DMG",
+      "4": "Charged Attack DMG",
+      "5": "Charged Attack Stamina Cost",
+      "6": "Plunge DMG",
+      "7": "Low/High Plunge DMG",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "skill": {
+    "name": "Cosmic Calculator",
+    "description": {
+      "0": "Nekara condenses immense energy from her Astral Abacus to create an explosion that deals <electro>AoE Electro DMG</electro> to enemies in front of her and creates a sigil with undefinable contents above her head.",
+      "1": "The sigil grants her the Schrödinger Superposition Effect for 10 seconds.",
+      "2": "<br/>",
+      "3": "<strong>Schrödinger Superposition Effect</strong>",
+      "4": "When Nekara deals Normal or Charged-attack <electro>Electro DMG</electro> to opponents, the DMG dealt is increased based on her elemental mastery.",
+      "5": "The sigil lasts for 10 seconds or after it is triggered a certain number of times. This effect expires when Nekara leaves the field."
+    },
+    "skillParams": {
+      "0": "Skill DMG",
+      "1": "Duration",
+      "2": "Trigger Quota",
+      "3": "CD",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "burst": {
+    "name": "Parallax Paws",
+    "description": {
+      "0": "Nekara summons a star-shaped Celestial Cyclone around her that deals a burst of <electro>Electro DMG</electro> to enemies as it expands. The field will linger and deal <electro>continuous AoE Electro DMG</electro> to enemies in its area every 1s.",
+      "1": "While Celstial Cyclone is active, Nekara's elemental mastery will be increased by a percentage of her own elemental mastery.",
+      "2": "Additionally, while Celestial Cyclone is active, Nekara enters the Stellar Statistics state, allowing her to switch between Multiplication, Addition and Subtraction modes on her Astral Abacus. She starts in the Multiplication state and can switch between the three modes by casting her burst again with no animation. Each mode has a different effect on the Celestial Cyclone and her attacks.",
+      "3": "<br/>",
+      "4": "<strong>Stellar Statistics</strong>",
+      "5": [
+        "<strong>Multiplication</strong>: The star field remains the same size and deals moderate <electro>Electro DMG</electro> over time. Within Nekara's star field all Sword, Claymore and Polearm-wielding characters' weapons will be infused with <electro>Electro</electro>. Normal and Charged attacks within the field hit the opponent will trigger a Star Sunder coordinated electro blast that deals <electro>AoE Electro DMG</electro> based on Nekara's elemental mastery. This effect can be triggered once every 1.5s",
+        "<strong>Addition</strong>: The star field expands and deals strong <electro>Electro DMG</electro> over time. Nekara's normal and charged attacks will also trigger a Supernova that deals <electro>AoE Electro DMG</electro> based on her elemental mastery. This effect can be triggered once every 0.75s",
+        "<strong>Subtraction</strong>: The star field contracts and deals weaker <electro>Electro DMG</electro> over time, but also afflicts enemies with the Less Than Three state, which reduces their resistance based on her elemental mastery. Nekara's normal and charged attacks also deal additional damage based on her elemental mastery in the Subtraction state."
+      ]
+    },
+    "skillParams": {
+      "0": "Celestial Cyclone Initial DMG",
+      "1": "Elemental Mastery",
+      "2": "Celestial Cyclone DoT DMG (Multiplication)",
+      "3": "Star Sunder DMG",
+      "4": "Celestial Cyclone DoT DMG (Addition)",
+      "5": "Supernova DMG",
+      "6": "Celestial Cyclone DoT DMG (Subtraction)",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": ""
+    }
+  },
+  "passive1": {
+    "name": "Quick Calculation",
+    "description": {
+      "0": "Nekara's charged attack consumes 20% less stamina and charges 20% faster"
+    }
+  },
+  "passive2": {
+    "name": "Math Whiz",
+    "description": {
+      "0": "While Celestial Cyclone is active, Nekara gains 5% bonus elemental mastery for each enemy hit by <strong>Parallax Paws</strong> over its entire duration, up to a maximum of 25%.",
+      "1": "The same enemy can count multiple times for this passive."
+    }
+  },
+  "passive3": {
+    "name": "Insomniac Iteration",
+    "description": {
+      "0": "At night (18:00 - 6:00), increases the optimize speed of your builds on Genshin Optimizer by 10%."
+    }
+  },
+  "constellation1": {
+    "name": "Decimal Point",
+    "description": {
+      "0": "Nekara's normal and charged attacks have a 25% chance to deal double damage"
+    }
+  },
+  "constellation2": {
+    "name": "Prime Number",
+    "description": {
+      "0": "When Nekara is under the Schrödinger Superposition Effect, every trigger that is a prime number doubles the damage increase from the Schrödinger Superposition Effect."
+    }
+  },
+  "constellation3": {
+    "name": "Infinite Series",
+    "description": {
+      "0": "Increases the Level of <strong>Parallax Paws</strong> by 3.",
+      "1": "Maximum upgrade level is 15."
+    }
+  },
+  "constellation4": {
+    "name": "Perfect Square",
+    "description": {
+      "0": "When Nekara triggers an Electro reaction, she restores 4 Elemental Energy for herself and all nearby party members of an Elemental Type involved in the reaction.",
+      "1": "This effect has a 4s cooldown."
+    }
+  },
+  "constellation5": {
+    "name": "The Leaves of Enlightening Speech",
+    "description": {
+      "0": "Increases the Level of <strong>Illusory Heart</strong> by 3.",
+      "1": "Maximum upgrade level is 15."
+    }
+  },
+  "constellation6": {
+    "name": "Golden Ratio",
+    "description": {
+      "0": "Every 1 charged attack DMG instance grants Nekara 1 stack of Golden Ratio. A stack can be gained every 0.2s. Nekara's Crit Rate and Crit DMG are increased by 3% and 5% per stack, respectively. Nekara can possess up to 8 stacks. All stacks share a timer and the stacks reset after 13 seconds."
+    }
+  }
+}
